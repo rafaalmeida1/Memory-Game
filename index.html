@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Memória</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Jogo Da Memória</h1>
+        <input type="button" id="start" value="Start">
+        <a href="https://github.com/rafaalmeida1" target="_black">
+            <input type="button" id="gitHub" value="GitHub">
+        </a>
+        <a href="https://www.instagram.com/poito.rafa/" target="_black">   
+            <input type="button" id="insta" value="Instagram">
+        </a>
+    </div>
+
+    <input type="button" id="return" value="⬅ Voltar">
+    <div id="gameBoard">
+        
+        
+    </div>
+   
+        
+    <div id="gameOver">
+        <div>
+            Parabéns! Você conseguiu completar o jogo!
+        </div>
+        <div class="btns">
+            <button id="backToHome" onclick="backToHome()">Voltar para o início</button>
+            <button id="restart" onclick="restart()">Jogue novamente</button>
+        </div>
+    </div>
+
+<script src="./src/game.js"></script>
+<script src="./src/script.js"></script>
+</body>
+</html>
